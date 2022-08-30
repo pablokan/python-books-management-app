@@ -1,5 +1,5 @@
-from PySide2.QtWidgets import QWidget, QFileDialog
-from PySide2.QtCore import Qt
+from PySide6.QtWidgets import QWidget, QFileDialog
+from PySide6.QtCore import Qt
 from views.new_book_window import NewBookForm
 from db.books import insert_book, select_book_by_id
 import shutil

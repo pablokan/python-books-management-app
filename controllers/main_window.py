@@ -1,4 +1,4 @@
-from PySide2.QtWidgets import QWidget, QTableWidgetItem, QAbstractItemView
+from PySide6.QtWidgets import QWidget, QTableWidgetItem, QAbstractItemView
 from views.main_window import ListBookForm
 from db.books import select_all_books, select_book_by_title, select_book_by_category, delete_book
 import os
